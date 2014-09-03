@@ -2,7 +2,7 @@
  
 	require_once('WhatsAPI/src/whatsprot.class.php');
 	
-   /**
+   	/**
 	*  Informações necessárias (Passo 1 e 2)
 	*  // Necessary Info (Steps 1 and 2)
 	*/
@@ -17,18 +17,18 @@
 
 	/**
 	*  1. Obter o código de acesso WhatsApp ( Fornecido  via SMS "No aparelho celular" )
-	*	// Getting the WhatsApp Code (Supplied bySMS in your cellphone)
+	*  // Getting the WhatsApp Code (Supplied bySMS in your cellphone)
 	*/
 		/*
-			$identity = strtolower(urlencode(sha1($username, true)));
-			$w = new WhatsProt($username, $identity, $nomeDoPerfil, true);
-			$w->codeRequest();
+		$identity = strtolower(urlencode(sha1($username, true)));
+		$w = new WhatsProt($username, $identity, $nomeDoPerfil, true);
+		$w->codeRequest();
 		*/
 
 
 	/**
 	*  2. Obter a senha de acesso utilizando o código fornecido (Fornecido pela empresa via HTML "Em tela")
-    *  // Getting the WhatsApp Password (Supplied by HTML in your browser)
+    	*  // Getting the WhatsApp Password (Supplied by HTML in your browser)
 	*/
 		/*
 		$code = ''; //Colocar o Código pego no primeiro passo
